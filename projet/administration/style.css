@@ -1,0 +1,287 @@
+body
+{
+	margin: 10px 0 ;
+	padding: 0 ;
+	text-align: center ;
+	font: 0.8em "Trebuchet MS", helvetica, sans-serif ;
+	background:url(" back.jpg") ;
+}
+
+div#conteneur
+{
+	width: 1000px ;
+	margin: 0 auto ;
+	text-align: left ;
+	border: 2px solid #ab4 ;
+	background: #fff ;
+}
+
+h1#header
+{
+	height: 210px ;
+	margin: 0 ;
+	background: url(slide32.jpg) no-repeat left top ;
+}
+
+h1#header a
+{
+	width: 400px ;
+	height: 70px ;
+	display: block ;
+	
+	position: relative ;
+	left: 350px ;
+	top: 15px ;
+	text-indent: -5000px ;
+}
+
+
+
+		
+ul#menu li
+{
+	float: left ;
+	text-align: center ;
+}
+
+ul#menu li a
+{
+	width: 180px ;
+	line-height: 25px ;
+	font-size: 2em ;
+	font-weight: bold ;
+	letter-spacing: 2px ;
+	color: #fff ;
+	display: block ;
+	text-decoration: none ;
+	border-right: 2px solid #dea ;
+}
+
+ul#menu li a:hover
+{
+	background: url(MenuItemBgLast.gif) repeat-x 0 0 ;
+}
+
+div#contenu
+{
+	padding: 0 25px 0 100px ;
+	background: url(bg_page.gif) no-repeat 15px 15px ;
+}
+
+div#contenu h2
+{
+	padding-left: 25px ;
+	line-height: 25px ;
+	font-size: 1.4em ;
+	background: url(little_apple.gif) no-repeat left bottom ;
+	color: #9b2 ;
+	border-bottom: 1px solid #9b2 ;
+}
+
+div#contenu h3
+{
+	margin-left: 15px ;
+	padding-left: 5px ;
+	border-bottom: 1px solid #9b2 ;
+	border-left: 3px solid #9b2 ;
+	color: #9b2 ;
+}
+
+div#contenu p
+{
+	text-align: justify ;
+	text-indent: 2em ;
+	line-height: 1.7em ;
+}
+
+div#contenu a
+{
+	color: #8a0 ;
+}
+
+div#contenu a:hover
+{
+	color: #9b2 ;
+}
+
+p#footer
+{
+	margin: 0 ;
+	padding-right: 10px ;
+	line-height: 30px ;
+	text-align: right ;
+	color: #8a0 ;
+}
+
+pre
+{
+	overflow: auto ;
+	background: #dea ;
+	border: 2px solid #9b2 ;
+	padding: 5px 0 0 5px ;
+	font-size: 1.2em ;
+}
+
+* html pre
+{
+	width: 636px ;
+}
+
+pre span
+{
+	color: #560 ;
+}
+
+pre span.comment
+{
+	color: #b30000 ;
+}
+h1 {
+    font: 40px "Monotype Corsiva";
+    color: green;
+}
+#menu, #menu ul /* Liste */     
+{
+        padding : 10; /* pas de marge intérieure */
+        margin : 0; /* ni extérieure */
+        list-style : none; /* on supprime le style par défaut de la liste */
+        line-height : 30px; /* on définit une hauteur pour chaque élément */
+        text-align : center; /* on centre le texte qui se trouve dans la liste */
+}
+
+#menu /* Ensemble du menu */
+{
+position:high;
+        font-weight : bold; /* on met le texte en gras */
+        font-family : Arial; /* on utilise Arial, c'est plus beau ^^ */
+        font-size : 12px; /* hauteur du texte : 12 pixels */
+}
+
+#menu a /* Contenu des listes */
+{
+        display : block; /* on change le type d'élément, les liens deviennent des balises de type block */
+        padding : 0; /* aucune marge intérieure */
+        background : green; /* couleur de fond */        
+        color : #fff; /* couleur du texte */
+        text-decoration : none; /* on supprime le style par défaut des liens (la plupart du temps = souligné) */
+        width : 144px; /* largeur */
+}
+#actu input[type=submit]{
+width:103px;
+color:#ffebc1;
+height:26px;
+margin-top:4px;
+text-shadow:0px -1px #802a15;
+border:none;
+background:url(images/bg_btn.jpg) no-repeat center top;
+}
+#actu textarea {
+width:500px;
+height:90px;
+}
+
+#connexion input[type=submit]{
+width:103px;
+color:#ffebc1;
+height:26px;
+margin-top:8px;
+text-shadow:0px -1px #802a15;
+border:none;
+background:url(images/bg_btn.jpg) no-repeat center top;
+}
+
+#connexion {
+padding-left: 350px;
+}
+
+#news p {
+margin: 0;
+}
+
+#news header {
+padding-bottom: 10px;
+}
+
+#titre_hp {
+padding-left: 408px;
+}
+
+#img_tasse {
+padding-left: 40px;
+}
+
+#menu li /* Elements des listes */      
+{ display:inline-block;
+line-height:10px;
+color:#fff;
+font-size:10px; 
+font-weight:bold; 
+text-decoration:none; 
+font-family:arial, verdana, sans-serif; 
+text-align:center; 
+padding:0 20px 0 20px; 
+cursor:pointer;
+        float : left; 
+        /* pour IE qui ne reconnaît pas "transparent" */
+        border-right : 1px solid #fff; /* on met une bordure blanche à droite de chaque élément */
+}
+/* Inversement des couleurs lorsque la souris passe */
+
+#menu a:hover 
+{
+        color : #000; /* Noir */
+        background : #FF8C00; /* Blanc*/
+}
+/* partie positionnement et déco */
+#m1 a { 
+	display:block; 
+	color: #fff; 
+	text-decoration:none;
+}
+#m1 > li,
+#m1 > li li {
+	position: relative;
+	display:inline-block;
+	width: 50px;
+	padding: 6px 15px;
+	background-color: #777;
+	background-image: linear-gradient(#aaa, #888 50%, #777 50%,#999);
+}
+
+#m1 > li li a { color: #444; }
+#m1 > li li:hover { background:#eee; }
+#m1 > li:first-child {
+	border-right: 1px solid #777;
+	border-radius: 8px 0 0 8px;
+}
+#m1 > li + li {
+	border-left: 1px solid #aaa;
+	border-right: 1px solid #777;
+}
+#m1 > li:last-child {
+	border-right: 0;
+	border-left: 1px solid #aaa;
+	border-radius: 0 8px 8px 0 ;
+}
+#m1 > li:hover {
+	background-color: #999;
+	background-image: linear-gradient(#ccc, #aaa 50%, #999 50%,#bbb);
+}
+/* (presque) fin de la partie positionnement/déco */
+/* dans cette déclaration, on fixe le max-height */
+#m1 ul {
+	position: absolute;
+	top: 2em; left: 0;
+	max-height:0em;	
+	margin: 0; padding: 0;
+	background-color: #ddd;
+	background-image: linear-gradient(#fff,#ddd);
+	overflow: hidden;
+	transition: 1s max-height 0.3s;
+	border-radius: 0 0 8px 8px;
+}
+/* ici on change la valeur de max-height au :hover */
+#m1 > li:hover ul {
+	/* à adapter, le minimum est le meilleur mais voyez large 😉 */
+	max-height: 13em;
+}
